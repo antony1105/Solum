@@ -1,21 +1,21 @@
 # Technical Submission
 
-Hey! This repo has my solutions for three coding challenges. Each one tackles a different type of problem.
+
 
 ## What's Inside
 
 ```
-Question A/    → Mystic Waves (math puzzle with alternating energy)
-Question B/    → CargoCraft Fleet (optimization problem)
-Question C/    → Login Page (frontend with validation)
-```
+├── Question A/          # Mystic Waves - APython
+├── Question B/          # CargoCraft Fleet - Python
+└── Question C/          # Frontend Login Page - HTML/CSS
+
+
 
 ## Question A: Mystic Waves
 
 This one's about calculating energy from alternating waves (x, -x, x, -x...). Pretty straightforward once you spot the pattern.
 
-**Tech:** Python  
-**Main idea:** If you have an odd number of waves, you end up with x. Even number? They cancel out to 0.
+**Language:** Python  
 
 👉 [Full explanation](Question%20A/README.md)
 
@@ -23,8 +23,7 @@ This one's about calculating energy from alternating waves (x, -x, x, -x...). Pr
 
 Given two types of crafts with different propulsion units, figure out the min/max number of crafts needed for a total. It's basically a number theory problem.
 
-**Tech:** Python  
-**Approach:** Maximize larger units for minimum crafts, maximize smaller units for maximum crafts.
+**Language:** Python  
 
 👉 [Full explanation](Question%20B/README.md)
 
@@ -32,8 +31,7 @@ Given two types of crafts with different propulsion units, figure out the min/ma
 
 Built a working login page with proper validation. No backend needed - everything runs client-side.
 
-**Tech:** HTML, CSS, JavaScript (vanilla, no frameworks)  
-**Features:** Email/password validation, password strength checks, show/hide password, responsive design
+**Technologies:** HTML5, CSS3, Vanilla JavaScript  
 
 👉 [Full explanation](Question%20C/README.md)
 
@@ -44,10 +42,11 @@ Each folder has its own README with details, but here's the quick version:
 **Question A & B (Python):**
 ```bash
 cd "Question A"
-python mystic_waves.py
+python questionA.py
+```
 
 cd "Question B"
-python cargocraft_fleet.py
+python questionB.py
 ```
 
 **Question C (Frontend):**
@@ -62,4 +61,4 @@ You can log in with any of these:
 
 ---
 
-Made with ☕ for a technical assessment
+Anthony Ni
